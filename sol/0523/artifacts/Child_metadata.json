@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "familyName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFamilyName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sol/0523/04_inherited.sol": "Child"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sol/0523/04_inherited.sol": {
+			"keccak256": "0xd3fd7008557ecfb46fb3a5a2bb8819944fa6c886c9b925dd9fc5c0b7b7cc3380",
+			"license": "GPL-30",
+			"urls": [
+				"bzz-raw://ef5b340e2bb63c039f107eeaee9cc6c2786778341eff8c5a4dbe1f479fa3c904",
+				"dweb:/ipfs/QmTSrd65K6A5kUccSaS7HiqGfCiYuVffKmABC6SBvyPVMC"
+			]
+		}
+	},
+	"version": 1
+}

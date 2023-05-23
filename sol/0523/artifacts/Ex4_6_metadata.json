@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sendMoney",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "end",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sendMoney",
+						"type": "uint256"
+					}
+				],
+				"name": "fun1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sol/0523/01_if.sol": "Ex4_6"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sol/0523/01_if.sol": {
+			"keccak256": "0x4613f4bd9b03a459712353a76efc6618489c83c3fc3b5c324239382fabf1610f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6c4c303b94cfb75507ac86a2c49b8cb221293660754397a23a0c3677f83beb07",
+				"dweb:/ipfs/QmX5Jo36FgNpZ76iexZmNPuHoRYFgQ9y3HwkNNS41SGkFH"
+			]
+		}
+	},
+	"version": 1
+}
