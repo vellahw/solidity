@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "numberTracker",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str",
+						"type": "string"
+					}
+				],
+				"name": "PushEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sol/0524/01_event_indexed.sol": "myIndex"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sol/0524/01_event_indexed.sol": {
+			"keccak256": "0xdb6cfcc390e7f3f00027d47d822f7cc09bb791886d6c0cbf476940dcf07cfdd5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7876f1cab8a3992da3d4236cba11faded868d208535034433c31d9a1bb6c80a4",
+				"dweb:/ipfs/QmWKDm5Cr1rXPai9VZBKzbkRkucKuqi4ZaAShty7dgXYjy"
+			]
+		}
+	},
+	"version": 1
+}
